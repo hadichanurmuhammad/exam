@@ -1340,29 +1340,25 @@ select{
 	
 }
 
-@media(max-width: 574px){
+@media(max-width: 564px){
 	.container{
 		max-width: 500px;
 	}
 
-	.header-subtext{
-		margin-left: -420px;
-	}
-
-	.lorem-subtext{
-		margin-left: -420px;
-	}
-
-	.header-link{
-		margin-left: -420px;
-	}
-
-	.xizmatlar-title{
-		margin-right: 800px;
+	.buyurtma-subtext{
+		
 	}
 
 	.nav{
 		max-width: 560px !important;
 	}
 	
+	.nav__img{
+		margin-left: 150px;
+	}
+
+	.none{
+		margin-left: -150px;
+	}
 }
+
