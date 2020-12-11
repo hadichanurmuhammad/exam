@@ -1429,14 +1429,6 @@ select{
 		width: 450px;
 	}
 
-	.xizmatlar{
-		display: none;
-	}
-	
-	.footer{
-		display: none;
-	}
-
 	.container{
 		overflow: hidden;
 	}
