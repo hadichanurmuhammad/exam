@@ -1362,6 +1362,32 @@ select{
 	}
 }
 
+@media(max-width: 566px){
+	.container{
+		max-width: 500px;
+	}
+
+	.nav{
+		max-width: 560px !important;
+	}
+	
+}
+
+@media(max-width: 555px){
+	.container{
+		max-width: 500px;
+	}
+	
+	.nav{
+		max-width: 550px !important;
+	}
+
+	.xizmatlar-subtext{
+		width: 500px;
+	}
+	
+}
+
 @media(max-width: 500px){
 	.container{
 		max-width: 400px !important
@@ -1371,12 +1397,48 @@ select{
 		max-width: 500px !important;
 	}
 
-	.info-img{
+	.biz-subtext{
 		width: 450px;
 	}
 
+	.biz-title{
+		width: 100%;
+	}
+
+	.info-img{
+		width: 400px;
+	}
+
+	.biz-link{
+		width: 200px;
+	}
+
 	.info-subtext{
-		width: 500px;
+		width: 450px;
+	}
+
+	.footer-link{
+		width: 450px;
+	}
+
+	.footer-title{
+		width: 450px;
+	}
+
+	.footer-subtext{
+		width: 450px;
+	}
+
+	.xizmatlar{
+		display: none;
+	}
+	
+	.footer{
+		display: none;
+	}
+
+	.container{
+		overflow: hidden;
 	}
 	
 }
