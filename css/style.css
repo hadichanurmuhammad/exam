@@ -1362,3 +1362,22 @@ select{
 	}
 }
 
+@media(max-width: 500px){
+	.container{
+		max-width: 400px !important
+	}
+
+	.nav{
+		max-width: 500px !important;
+	}
+
+	.info-img{
+		width: 450px;
+	}
+
+	.info-subtext{
+		width: 500px;
+	}
+	
+}
+
